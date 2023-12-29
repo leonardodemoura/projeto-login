@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leoflix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #f70505;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #111;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            display: block;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .movie {
+            width: 200px;
+            margin: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .movie:hover {
+            transform: scale(1.05);
+        }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie h3 {
+            color: white;
+            margin: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Leoflix</h1>
+    </header>
+
+    <main>
+        <!-- Exemplo de filme -->
+        <div class="movie">
+            <img src="https://br.web.img3.acsta.net/medias/nmedia/18/90/29/80/20109874.jpg" alt="Título do Filme 1">
+            <h3>A ERA DO GELO 1</h3>
+        </div>
+
+        <!-- Outros filmes aqui -->
+        <!-- <div class="movie">
+            <img src="caminho/para/imagem2.jpg" alt="Título do Filme 2">
+            <h3>Título do Filme 2</h3>
+        </div> -->
+
+        <!-- Adicione mais divs .movie conforme necessário -->
+    </main>
+
+</body>
+</html>
